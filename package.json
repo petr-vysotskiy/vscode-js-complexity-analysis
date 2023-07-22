@@ -8,6 +8,7 @@
     "vscode": "^1.5.1"
   },
   "scripts": {
+    "build": "npx tsc",
     "lint": "eslint --ext .js ./src"
   },
   "categories": [
@@ -62,7 +63,8 @@
     "theme": "light"
   },
   "devDependencies": {
-    "eslint": "^8.16.0"
+    "eslint": "^8.16.0",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "dot": "1.1.3",
