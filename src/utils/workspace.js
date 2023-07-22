@@ -34,6 +34,6 @@ function _createGlob(patterns) {
   }
 };
 
-export default {
+export {
     getWorkspaceFiles
 }
